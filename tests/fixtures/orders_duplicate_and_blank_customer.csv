@@ -1,0 +1,9 @@
+order_id,customer_id,customer_name,email,order_date,status,quantity,unit_price
+O-1001,C-101,Asha Rao,asha@example.test,2026-01-03,paid,2,19.95
+O-1001,C-102,Dev Shah,dev@example.test,2026-01-04,shipped,1,129.00
+O-1003,,Asha Rao,asha@example.test,2026-01-05,pending,3,8.50
+O-1004,C-103,Mira Sen,mira@example.test,2026-01-05,paid,1,44.25
+O-1005,C-104,Arun Das,arun@example.test,2026-01-06,cancelled,2,15.00
+O-1006,C-102,Dev Shah,dev@example.test,2026-01-07,shipped,1,12.99
+O-1007,C-105,Nila Roy,nila@example.test,2026-01-08,paid,4,6.25
+O-1008,C-103,Mira Sen,mira@example.test,2026-01-09,pending,2,32.40

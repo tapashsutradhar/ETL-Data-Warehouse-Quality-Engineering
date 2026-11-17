@@ -1,0 +1,11 @@
+version: 2
+sources:
+  - name: raw
+    schema: analytics
+    tables:
+      - name: orders
+        description: Synthetic order feed loaded by dbt seed.
+        columns:
+          - name: order_id
+            tests: [not_null, unique]
+

@@ -1,0 +1,21 @@
+name: retail_orders_quality
+version: '1.0.0'
+config-version: 2
+profile: retail_orders_quality
+model-paths: [models]
+seed-paths: [seeds]
+test-paths: [tests]
+clean-targets: [target, dbt_packages]
+models:
+  retail_orders_quality:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
+seeds:
+  retail_orders_quality:
+    orders:
+      +column_types:
+        quantity: integer
+        unit_price: decimal(10,2)
+

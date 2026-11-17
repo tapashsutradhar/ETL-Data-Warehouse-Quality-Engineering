@@ -1,0 +1,16 @@
+.venv*/
+.python-runtime/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+warehouse.db
+warehouse.duckdb
+*.duckdb.wal
+reports/*.json
+reports/*.md
+coverage.xml
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+dbt/.user.yml
+
