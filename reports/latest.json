@@ -1,0 +1,35 @@
+{
+  "batch_id": "d6c518c6-5840-4ec3-b150-3836f3ea56ad",
+  "status": "passed",
+  "source_rows": 8,
+  "inserted_rows": 0,
+  "checks": [
+    {
+      "name": "source_contract",
+      "status": "passed",
+      "detail": "Required fields, types, keys and domains are valid"
+    },
+    {
+      "name": "source_target_count",
+      "status": "passed",
+      "detail": "source=8, target keys=8"
+    },
+    {
+      "name": "source_target_keys",
+      "status": "passed",
+      "detail": "missing=[], extra=[]"
+    },
+    {
+      "name": "amount_reconciliation",
+      "status": "passed",
+      "detail": "source=371.44, target=371.44"
+    },
+    {
+      "name": "referential_integrity",
+      "status": "passed",
+      "detail": "orphan facts=0"
+    }
+  ],
+  "started_at": "2026-11-05T12:56:43.215069+00:00",
+  "finished_at": "2026-11-05T12:56:43.340596+00:00"
+}

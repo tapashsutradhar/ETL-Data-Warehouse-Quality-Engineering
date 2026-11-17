@@ -1,0 +1,16 @@
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  select order_id
+from "warehouse"."analytics"."fct_orders"
+where order_amount != round(quantity * unit_price, 2)
+  
+  
+      
+    ) dbt_internal_test
